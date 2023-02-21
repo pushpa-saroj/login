@@ -4,8 +4,8 @@ import PaginationBar from "./PaginationBar";
 function About() {
   return (
     <div>
-      <Tooltip content="This is Home page">
-        <h1>About </h1>
+      <Tooltip content="This is About page">
+        <h1  style={{marginLeft:"600px "}}>About Page </h1>
       </Tooltip>
       <PaginationBar />
     </div>
