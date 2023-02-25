@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import "../App.css";
-
 import ReactPaginate from "react-paginate";
 import axios from "axios";
+
+
 function PaginationBar() {
   const [Page, setPage] = useState([]);
   const [Data, setData] = useState("");
