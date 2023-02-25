@@ -1,0 +1,16 @@
+.question {
+    columns: 50px 1;
+    border-radius: 7px;
+    border: solid black 1px;
+    background-color: lightgoldenrodyellow;
+    column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .mainDiv{
+width: 500px;
+align-items: center;
+  }
+ 

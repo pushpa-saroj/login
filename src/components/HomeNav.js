@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import HomeNavSidebr from "./HomeNavSidebr";
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { BsPersonCircle,BsSearch} from "react-icons/bs";
+import { BsPersonCircle} from "react-icons/bs";
 
 function HomeNav() {
   return (
@@ -20,49 +20,49 @@ function HomeNav() {
           </Navbar.Brand>
 
 
-          <Navbar.Brand>
+          <Navbar.Brand  style={{position: "relative" ,right: "-60px"}}>
             <span>
               <NavLink to="/About">
-                <h1>About</h1>
+                <h3>About</h3>
               </NavLink>
             </span>
           </Navbar.Brand>
 
 
-          <Nav className="me-auto">
-            <Nav.Link>
+         
+            <Navbar.Brand  style={{position: "relative" ,left: "-20px"}}>
               <span >
                 <NavLink to="/Home">
-                  Home
+                  <h3>Home</h3>
                 </NavLink>
               </span>
-            </Nav.Link>
+            </Navbar.Brand>
 
 
-            <Nav.Link>
+            <Navbar.Brand style={{position: "relative" ,left: "-90px"}}>
               <span >
                 <NavLink to="/Features">
                   {/* <Tooltip content="click on this link for infomation about this wbsite">
                     Features
                   </Tooltip> */}
-                  Features
+                 <h3>Features</h3>
                 </NavLink>
               </span>
-            </Nav.Link>
+            </Navbar.Brand>
 
 
-            <Nav.Link>
+            <Navbar.Brand style={{position: "relative" ,left: "-100px"}}>
               <span >
                 <NavLink to="/Contact">
-                  Contact
+                <h3>Contact</h3>
                 </NavLink>
               </span>
-            </Nav.Link>
+            </Navbar.Brand>
 
 
            
-          </Nav>
-          <BsPersonCircle style={{color:"white", fontSize:"50px"}}/>
+          
+          <BsPersonCircle style={{color:"white", fontSize:"40px"}}/>
         </Container>
 
         <NavDropdown title="En" id="basic-nav-dropdown" style={{color:"white", position: "relative" ,left: "-80px"}}>

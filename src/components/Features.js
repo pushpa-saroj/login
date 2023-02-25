@@ -1,16 +1,16 @@
 import React from "react";
 import "./Setting.css"
+import Accordion from "../accordion/Accordion";
 
 
 function Features() {
     return (
     <div>
       
-      
+      <Accordion/>
     <h1>Features</h1>
-    <div className="sidenav" style={{width:"200px"}}>
-      <p style={{color:"white",  border:"1px solid white "}}>Dashboard</p>
-    </div>
+    
+    
     </div>
   );
 }
