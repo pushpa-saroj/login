@@ -1,67 +1,65 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import {Tooltip} from "react-tooltip";
+
 import { NavLink } from "react-router-dom";
-import HomeNavSidebr from "./HomeNavSidebr";
+import HomeNavSidebr from "../components/HomeNavSidebr";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BsPersonCircle} from "react-icons/bs";
 
 function HomeNav() {
   return (
-    <div>
+    <div >
       
-      <Navbar bg="dark" variant="dark">
-        <Container>
-        <Navbar.Brand>
+     
+         <Navbar bg="black" >
+           <Container >
+           
+          <Navbar.Brand  >
             <span >
-                <h1 > <HomeNavSidebr/></h1>
-            </span>
-          </Navbar.Brand>
-
-
-          <Navbar.Brand  style={{position: "relative" ,right: "-60px"}}>
-            <span>
-              <NavLink to="/About">
-                <h3>About</h3>
+              <NavLink to="/About"  style={{textDecoration: 'none'}}>
+                <h3 >About</h3>
               </NavLink>
             </span>
           </Navbar.Brand>
 
 
          
-            <Navbar.Brand  style={{position: "relative" ,left: "-20px"}}>
+            <Navbar.Brand>
               <span >
-                <NavLink to="/Home">
+                <NavLink to="/Home"  style={{textDecoration: 'none'}}>
                   <h3>Home</h3>
                 </NavLink>
               </span>
             </Navbar.Brand>
 
 
-            <Navbar.Brand style={{position: "relative" ,left: "-90px"}}>
+            <Navbar.Brand>
               <span >
-                <NavLink to="/Features">
-                  {/* <Tooltip content="click on this link for infomation about this wbsite">
-                    Features
-                  </Tooltip> */}
+                <NavLink to="/Features"  style={{textDecoration: 'none'}}>
+
                  <h3>Features</h3>
                 </NavLink>
               </span>
             </Navbar.Brand>
 
 
-            <Navbar.Brand style={{position: "relative" ,left: "-100px"}}>
+            <Navbar.Brand >
               <span >
-                <NavLink to="/Contact">
+                <NavLink to="/Contact"  style={{textDecoration: 'none'}}>
                 <h3>Contact</h3>
                 </NavLink>
               </span>
             </Navbar.Brand>
 
+            <Navbar.Brand >
+              <span >
+                <NavLink to="/Contact"  style={{textDecoration: 'none'}}>
+                <h3>Contact</h3>
+                </NavLink>
+              </span>
+            </Navbar.Brand>
 
-           
-          
           <BsPersonCircle style={{color:"white", fontSize:"40px"}}/>
         </Container>
 

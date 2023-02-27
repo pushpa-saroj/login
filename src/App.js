@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 import Features from "./components/Features";
 import About from "./components/About";
 import "bootstrap/dist/css/bootstrap.min.css";
-import HomeNav from "./components/HomeNav";
+import HomeNav from "./Navbar/HomeNav";
 
 const App = () => {
   return (

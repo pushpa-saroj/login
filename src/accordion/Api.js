@@ -29,6 +29,21 @@ export const questions=[
         question: "what is the virtual DOM",
         anSwer:"DOM stands for Document Object Model. The DOM represents an HTML cocument with a logical tree structure"
     },
+    {
+        id:2,
+        question: "what is the virtual DOM",
+        anSwer:"DOM stands for Document Object Model. The DOM represents an HTML cocument with a logical tree structure"
+    },
+    {
+        id:2,
+        question: "what is the virtual DOM",
+        anSwer:"DOM stands for Document Object Model. The DOM represents an HTML cocument with a logical tree structure"
+    },
+    {
+        id:2,
+        question: "what is the virtual DOM",
+        anSwer:"DOM stands for Document Object Model. The DOM represents an HTML cocument with a logical tree structure"
+    },
 
 
 ]

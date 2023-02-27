@@ -9,13 +9,14 @@ import "./Accordian.css"
 
 
     return (
-        <div className="mainDiv">
-         <div className="question">
-        <div >
-         <p onClick={handleShow}>{show ? <BsFillArrowUpCircleFill/>:< BsFillArrowDownCircleFill/>}</p>
-         <h3 >{question}</h3>
+        <div className="answer" >
+         <div className="mainDiv">
+        <div  className="container">
+           <p  onClick={handleShow}>{show ? <BsFillArrowUpCircleFill/>:< BsFillArrowDownCircleFill/>}</p>
+        
+         <h3 className="heading">{question}</h3>
         </div>
-        <div > {show &&  <p>{anSwer}</p>}</div>
+        <div className="paragraph"> {show &&  <p>{anSwer}</p>}</div>
        </div>
        
      </div>
