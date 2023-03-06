@@ -1,0 +1,48 @@
+.mainDiv {
+
+  background-color: rgba(189, 189, 189, 0.9);
+  border-radius: 2rem;
+  height: 20rem;
+
+  position: relative;
+  left: 500px;
+  top: 80px;
+}
+
+.cntr {
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 0.9rem;
+}
+
+.input:hover {
+  background-color: rgb(245, 231, 212);
+}
+
+.button {
+  width: 90%;
+  border: 2px;
+  padding: 10px;
+  border-radius: 0.9rem;
+  background-color: rgb(9, 90, 125);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #0a0a0a;
+  transform: scale(1);
+  transition: all 0.1s;
+
+}

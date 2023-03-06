@@ -1,0 +1,50 @@
+
+  .div {
+
+    background-color: rgba(72, 3, 101, 0.277);
+    border-radius: 2rem;
+    height: 40rem;
+    width: 30rem;
+text-align: center;
+    position: relative;
+    left: 500px;
+    top: 10px;
+  }
+  .inputBox {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 50%;
+  
+  }
+  .inputBox:hover {
+    background-color: rgb(245, 231, 212);
+  }
+  .label
+    {
+      font-family:Fantasy;
+      font-size:25px;
+       padding: 5px;
+      margin-right:20px ;
+  }
+  .bttnn{
+  width: 60%;
+  border: 2px;
+  padding: 10px;
+  border-radius: 0.9rem;
+  background-color:  #f34747;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+
+}
+
+.bttnn:hover {
+  background-color: rgba(241, 4, 56, 0.485);
+  color: #0a0a0a;
+  transform: scale(1);
+  transition: all 0.1s;
+
+}

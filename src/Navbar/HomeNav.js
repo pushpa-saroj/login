@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 import HomeNavSidebr from "../components/HomeNavSidebr";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { BsPersonCircle} from "react-icons/bs";
+import Template from "../template/Template";
 
 function HomeNav() {
   return (
@@ -18,7 +19,7 @@ function HomeNav() {
           <Navbar.Brand  >
             <span >
               <NavLink to="/About"  style={{textDecoration: 'none'}}>
-                <h3 >About</h3>
+                <h3 >API-fetch</h3>
               </NavLink>
             </span>
           </Navbar.Brand>
@@ -28,7 +29,7 @@ function HomeNav() {
             <Navbar.Brand>
               <span >
                 <NavLink to="/Home"  style={{textDecoration: 'none'}}>
-                  <h3>Home</h3>
+                  <h3>Dragging</h3>
                 </NavLink>
               </span>
             </Navbar.Brand>
@@ -38,7 +39,7 @@ function HomeNav() {
               <span >
                 <NavLink to="/Features"  style={{textDecoration: 'none'}}>
 
-                 <h3>Features</h3>
+                 <h3>SideBar</h3>
                 </NavLink>
               </span>
             </Navbar.Brand>
@@ -47,7 +48,7 @@ function HomeNav() {
             <Navbar.Brand >
               <span >
                 <NavLink to="/Contact"  style={{textDecoration: 'none'}}>
-                <h3>Contact</h3>
+                <h3>Pop-up</h3>
                 </NavLink>
               </span>
             </Navbar.Brand>
@@ -55,7 +56,7 @@ function HomeNav() {
             <Navbar.Brand >
               <span >
                 <NavLink to="/Contact"  style={{textDecoration: 'none'}}>
-                <h3>Contact</h3>
+                <h3>Accordion</h3>
                 </NavLink>
               </span>
             </Navbar.Brand>
@@ -76,6 +77,7 @@ function HomeNav() {
             </NavDropdown>
 
       </Navbar>
+      <Template/>
     </div>
   );
 }
