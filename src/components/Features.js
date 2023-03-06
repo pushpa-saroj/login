@@ -1,19 +1,13 @@
 import React from "react";
 
-
 import Sidebar from "../SideBar/Sidebar";
 
-
-
 function Features() {
- 
-    return (
+  return (
     <div>
-     <Sidebar/>
-     
-    <h1>Features</h1>
-    
-    
+      <Sidebar />
+
+      <h1>Features</h1>
     </div>
   );
 }
